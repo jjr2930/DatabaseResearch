@@ -36,7 +36,7 @@ namespace DBServer
             string commandString = $@"
 INSERT INTO {ACCOUNT_TALBE_NAME} ({COLUMN_LOGIN_ID_NAME})
 VALUES({userId});";
-            //Console.WriteLine(commandString);
+            Console.WriteLine(commandString);
             using (var command = new MySqlCommand(commandString, connection))
             {
                 try

@@ -9,6 +9,19 @@ namespace DBServer
     {
         public static void Main(string[] args)
         {
+            IPInfoList iPInfoList = new IPInfoList();
+            iPInfoList.AddIp("localhost", 9000);
+            iPInfoList.AddIp("localhost", 9001);
+            iPInfoList.AddIp("localhost", 9002);
+            iPInfoList.AddIp("localhost", 9003);
+            iPInfoList.AddIp("localhost", 9004);
+            iPInfoList.AddIp("localhost", 9005);
+            iPInfoList.AddIp("localhost", 9006);
+            iPInfoList.AddIp("localhost", 9007);
+
+            iPInfoList.Save("ipList.txt");
+
+            return;
             Console.WriteLine("Hello World!");
             DBClient dBClient = new DBClient("localhost", 3306);
             //add user
