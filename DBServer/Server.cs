@@ -8,7 +8,7 @@ namespace DBServer
         DBClient client;
         public Server()
         {
-            client = new DBClient(ip, port);
+            //9client = new DBClient(ip, port);
         }
     }
 }
