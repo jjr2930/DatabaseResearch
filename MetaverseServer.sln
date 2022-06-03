@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST_DB_NoneDivded", "TEST_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBServer", "DBServer\DBServer.csproj", "{E800449C-5775-4990-8DE9-6A55DE5737CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountGenerationServer", "AccountGenerationServer\AccountGenerationServer.csproj", "{07878BED-9BB2-473A-AA41-7804712D303E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -27,6 +29,10 @@ Global
 		{E800449C-5775-4990-8DE9-6A55DE5737CA}.Debug|anycpu.Build.0 = Debug|anycpu
 		{E800449C-5775-4990-8DE9-6A55DE5737CA}.Release|anycpu.ActiveCfg = Release|anycpu
 		{E800449C-5775-4990-8DE9-6A55DE5737CA}.Release|anycpu.Build.0 = Release|anycpu
+		{07878BED-9BB2-473A-AA41-7804712D303E}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{07878BED-9BB2-473A-AA41-7804712D303E}.Debug|anycpu.Build.0 = Debug|anycpu
+		{07878BED-9BB2-473A-AA41-7804712D303E}.Release|anycpu.ActiveCfg = Release|anycpu
+		{07878BED-9BB2-473A-AA41-7804712D303E}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
