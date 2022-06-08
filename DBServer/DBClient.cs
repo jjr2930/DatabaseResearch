@@ -65,7 +65,6 @@ VALUES({userId}, {password});";
 
         public void AddCharacter(string id, string characterName)
         {
-            connection
             var connection = Connection.GetConnection(connectionIndex);
             var command = new MySqlCommand();
             MySqlTransaction transaction = connection.BeginTransaction();
